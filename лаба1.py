@@ -13,5 +13,4 @@ z1 = numerator1 / denominator1
 numerator2 = sqrt(m) - sqrt(n)
 z2 = numerator2 / m
 
-print("m={0:.2f} n={1:.2f}".format(m, n))
-print("z1={0:.4f} z2={1:.4f}".format(z1,z2))
+print("z1 = {0:.4f} z2 = {1:.4f}".format(z1,z2))
