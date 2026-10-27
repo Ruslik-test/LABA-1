@@ -6,7 +6,7 @@ n = float(input('Введите значение n: '))
 
 # Вычисление z1
 numerator1 = (m - 1) * sqrt(m) - (n - 1) * sqrt(n)
-denominator1 = sqrt(m**3 * n + n * m + m**2 - m)
+denominator1 = sqrt((m**3 * n) + n * m + m**2 - m)
 z1 = numerator1 / denominator1
 
 # Вычисление z2
